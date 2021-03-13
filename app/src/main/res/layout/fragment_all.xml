@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+    </data>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_5sdp"
+    tools:context=".view.fragments.AllFragment"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="@dimen/_40sdp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:paddingBottom="?attr/actionBarSize"
+        />
+
+</FrameLayout>
+</layout>
